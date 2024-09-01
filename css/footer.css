@@ -1,0 +1,407 @@
+/* FOOTER STYLES */
+
+/* PRINCIPAL CONTAINER*/
+
+#footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -4%;
+    margin-bottom: 0%;
+    padding-top: 30px;
+    border: 1px solid #e7e7e7;
+    float: left;
+    background-color: #ffffff;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em
+}
+
+#aside1 {
+    width: 90%;
+    float: left;
+    padding: 0px 5% 20px 5%
+}
+
+#aside1 #info {
+    width: 50%;
+    float: left;
+    padding: 0px 10% 0px 0px
+}
+
+#aside1 #info p {
+    margin: 0px 0px 10px
+}
+
+#aside1 #logoFooter {
+    width: 40%;
+    float: right;
+    text-align: right
+}
+
+#logoFooter #redes {
+    width: 90%;
+    float: left;
+    padding: 0px 5%
+}
+
+ #redes {
+    width: 35%;
+    float: left;
+    padding: 1% 25% 0% 5%
+}
+
+#redes a {
+    float: left;
+    width: 50%;
+    height: 36px;
+    margin-bottom: 5px
+}
+
+#redes a span {
+    float: left;
+    margin-left: 3%;
+    padding: 3% 0%
+}
+
+ #redes a span:hover {
+    font-weight: bold
+}
+
+#redes a img {
+    float: left;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: #0078b2;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: var(--backgroundCss, #0078b2);
+    transition: .5s;
+    border: 1px solid transparent;
+}
+
+#aside2 #certificados {
+    width: 30%;
+    float: left;
+    padding: 0% 5% 0% 0%
+}
+
+#aside2 #certificados img {
+    float: left;
+    max-width: 100% !important
+}
+
+#aside3 {
+    width: 90%;
+    float: left;
+    padding: 20px 5%
+}
+
+#aside3 #fisico {
+    float: left;
+    width: 60%;
+    padding: 0px;
+    margin: 0px
+}
+
+#aside3 #online {
+    float: left;
+    width: 40%;
+    padding: 0px;
+    margin: 0px
+}
+
+#aside3 p {
+    margin: 0px 0px 10px
+}
+
+#aside4 {
+    width: 90%;
+    float: left;
+    padding: 20px 5% 50px
+}
+
+#aside4 span {
+    float: left;
+    margin: 0% 5% 0% 0%
+}
+
+#aside4 a {
+    color: #000;
+    float: left;
+    margin: 0% 5% 0% 0%;
+    text-decoration: underline;
+    font-weight: bold
+}
+
+#aside4 a:hover {
+    color: #ffffff !important;
+    background: #004884
+}
+
+#aside4 a:visited {
+    color: #004884
+}
+
+#footPowered {
+    float: left;
+    background-color: #82b440;
+    width: 92%;
+    padding: 1% 4%;
+    text-align: right
+}
+
+#footCreditos {
+    float: left;
+    background-color: #1d59c9;
+    width: 94%;
+    padding: 2% 3%
+}
+
+#footCreditos img:first-child {
+    float: left;
+    padding-top: 5px
+}
+
+#footCreditos img:last-child {
+    float: left;
+    padding-top: 20px
+}
+
+#footCreditos .separador {
+    width: 2px;
+    background: #ffffff;
+    float: left;
+    height: 70px;
+    margin: 0px 20px
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('/themes/fonts/icomoon.eot?j18pvs');
+    src: url('/themes/fonts/icomoon.eot?j18pvs#iefix') format('embedded-opentype'),
+        url('/themes/fonts/icomoon.ttf?j18pvs') format('truetype'),
+        url('/themes/fonts/icomoon.woff?j18pvs') format('woff'),
+        url('/themes/fonts/icomoon.svg?j18pvs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* MENU ACCESSIBILITY*/
+
+#menuAccesibilidad {
+    background-color: #004884;
+    border: 1px solid rgba(255, 255, 255, .278);
+    position: fixed;
+    right: -0.1em;
+    top: 30vh;
+    width: 3.2em !important;
+    border-radius: 10px 0 0 10px;
+    z-index: 100;
+    padding: 10px 0px;
+}
+
+#menuAccesibilidad .modA {
+    float: left;
+    padding: 0% 1%;
+    width: 98%
+}
+
+#menuAccesibilidad .modA .opciones {
+    float: left;
+    padding: 1%;
+    width: 38%;
+    font-size: 16px;
+    font-weight: bold
+}
+
+#menuAccesibilidad .modA .herramientas {
+    float: left;
+    padding: 1%;
+    width: 40%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#menuAccesibilidad .modA .cerrar {
+    float: left;
+    padding: 1%;
+    width: 16%;
+    text-align: right;
+    cursor: pointer
+}
+
+#menuAccesibilidad .modB {
+    float: left;
+    padding: 0% 1%;
+    width: 98%
+}
+
+#menuAccesibilidad .modB .fuente {
+    padding: 2%;
+    margin: 1% 2%;
+    width: 12%;
+    border: 1px solid #7B7B7B;
+    text-align: center
+}
+
+#menuAccesibilidad .convertic {
+    height: 17px;
+    display: flex;
+    background-color: white;
+    margin: 20%;
+    padding: 10%;
+    padding-left: 7%;
+    text-align: center;
+    border-radius: 20%;
+}
+
+#menuAccesibilidad .modB .essential {
+    float: left;
+    padding: 2%;
+    margin: 1% 2%;
+    width: 18%;
+    border: 1px solid #7B7B7B;
+    text-align: center
+}
+
+#menuAccesibilidad .modB .boton1 {
+    width: 50%;
+    margin: 1% auto;
+    cursor: pointer
+}
+
+#menuAccesibilidad>#btnDown,
+#btnUp,
+.contraste,
+#relevo {
+    display: flex;
+    height: 27px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#menuAccesibilidad .modB img {
+    height: 24px;
+    margin-top: 3%
+}
+
+#menuAccesibilidad .modC {
+    float: left;
+    padding: 0% 1%;
+    width: 98%;
+    text-align: right;
+    cursor: pointer
+}
+
+#menuAccesibilidad>a>p {
+    color: #ffffff;
+    background-color: #004884;
+    cursor: pointer;
+    display: none;
+    margin-left: 2.5em;
+    font-size: 11px;
+}
+
+#menuAccesibilidad>a:hover p {
+    cursor: pointer;
+    display: inline-block !important;
+    margin-bottom: 10px;
+    margin-left: 13px;
+    font-family: "Work Sans", sans-serif;
+}
+
+#menuAccesibilidad>a:hover {
+    background-color: #004884;
+    -webkit-transform: translateX(-8em);
+    width: 11em;
+    border-radius: 10px 0 0 10px;
+    transition: all .5s ease-in-out;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.image_icon {
+    background: #fff;
+    border-radius: 3px;
+    height: 15px;
+    width: 20px;
+    margin-left: 6px;
+    padding: 5px;
+    text-align: center;
+}
+
+#sliderFooter {
+    float: left;
+    width: 80%;
+    margin: 2% 10% 0%
+}
+
+#sliderFooter #slider2 .banner {
+    width: 23%;
+    height: auto;
+    margin: 1%;
+    padding: 0%;
+    float: left;
+}
+
+#sliderFooter #slider2 .banner a img {
+    text-align: center
+}
+
+@media only screen and (max-width: 959px) {
+    #sliderFooter {
+        margin: 10% 5% 0%;
+    }
+
+    #sliderFooter #slider2 .banner {
+        width: 98%;
+        justify-content: center;
+        display: grid;
+    }
+
+    #aside1 #info {
+        width: 100%;
+        padding: 0px
+    }
+
+    #aside1 #logoFooter {
+        width: 100%;
+        text-align: center;
+    }
+
+    #aside2 #redes {
+        width: 100%;
+        padding: 1% 0% 5%;
+    }
+
+    #aside2 #certificados {
+        width: 100%;
+        float: left;
+        padding: 0%;
+    }
+
+    #aside3 #fisico,
+    #aside3 #online {
+        width: 100%;
+    }
+
+    #aside4 span {
+        width: 100%;
+        float: left;
+        margin: 0%;
+    }
+
+    #aside4 .enlace {
+        width: 50%;
+        float: left;
+        margin: 2% 0%
+    }
+}
